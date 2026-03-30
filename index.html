@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ko" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026년 4월 CEO 경영 리포트 | 삼성생명 GFC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Noto+Serif+KR:wght@700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-blue: #1e3a8a;
+            --secondary-blue: #1e40af;
+            --accent-gold: #fbbf24;
+        }
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #f8fafc;
+        }
+        .serif-title {
+            font-family: 'Noto Serif KR', serif;
+        }
+        .gradient-header {
+            background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        .gradient-header::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('https://www.transparenttextures.com/patterns/cubes.png');
+            opacity: 0.1;
+        }
+        .card-hover {
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .floating-nav {
+            backdrop-filter: blur(12px);
+            background-color: rgba(255, 255, 255, 0.85);
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-in {
+            animation: fadeIn 0.8s ease-out forwards;
+        }
+    </style>
+</head>
+<body class="text-slate-800 leading-relaxed">
+
+    <!-- Header Section -->
+    <header class="gradient-header text-white py-24 px-6 relative">
+        <div class="max-w-4xl mx-auto relative z-10 animate-fade-in">
+            <div class="flex justify-center mb-6">
+                <span class="bg-blue-500/20 border border-blue-400/30 text-blue-200 px-4 py-1 rounded-full text-xs font-bold tracking-widest uppercase">
+                    Premium Insight For CEO
+                </span>
+            </div>
+            <h1 class="serif-title text-4xl md:text-6xl font-bold mb-8 text-center leading-tight">
+                2026년 4월<br>
+                <span class="text-blue-300">경영 인사이트 리포트</span>
+            </h1>
+            <p class="text-center text-blue-100/80 text-lg md:text-xl font-light max-w-2xl mx-auto">
+                1분기 실적 분석과 2분기 리스크 관리를 통해<br class="hidden md:block"> 대표님의 경영 안정성을 강화하는 최적의 솔루션을 제안합니다.
+            </p>
+            <div class="mt-12 flex justify-center">
+                <div class="w-12 h-1 bg-blue-400 rounded-full"></div>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-6 -mt-10 relative z-20 pb-16">
+        
+        <!-- Summary Dashboard -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16">
+            <div class="bg-white p-6 rounded-3xl shadow-sm border border-slate-100 text-center card-hover">
+                <p class="text-slate-400 text-xs font-bold mb-2 uppercase">법인세</p>
+                <p class="text-xl font-bold text-blue-600">유동성 점검</p>
+            </div>
+            <div class="bg-white p-6 rounded-3xl shadow-sm border border-slate-100 text-center card-hover">
+                <p class="text-slate-400 text-xs font-bold mb-2 uppercase">자금운용</p>
+                <p class="text-xl font-bold text-indigo-600">중간배당</p>
+            </div>
+            <div class="bg-white p-6 rounded-3xl shadow-sm border border-slate-100 text-center card-hover">
+                <p class="text-slate-400 text-xs font-bold mb-2 uppercase">경제기조</p>
+                <p class="text-xl font-bold text-emerald-600">안정적 회복</p>
+            </div>
+            <div class="bg-white p-6 rounded-3xl shadow-sm border border-slate-100 text-center card-hover">
+                <p class="text-slate-400 text-xs font-bold mb-2 uppercase">헬스케어</p>
+                <p class="text-xl font-bold text-rose-500">호흡기 관리</p>
+            </div>
+        </div>
+
+        <!-- 1. Business Section -->
+        <section id="tax" class="mb-20 scroll-mt-24">
+            <div class="flex items-end justify-between mb-8 border-b border-slate-200 pb-4">
+                <div class="flex items-center">
+                    <span class="text-blue-600 text-4xl font-serif italic mr-4">01.</span>
+                    <div>
+                        <h2 class="text-2xl font-bold text-slate-900">경영 현안: 법인 결산 후속 조치</h2>
+                        <p class="text-slate-500 text-sm">Corporate Strategy & Tax Management</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-10 rounded-[2rem] border border-slate-200 card-hover relative overflow-hidden">
+                    <div class="absolute top-0 right-0 p-4 opacity-5">
+                        <i class="fas fa-coins text-6xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-6 flex items-center">
+                        <span class="w-8 h-8 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mr-3 text-sm font-bold">1</span>
+                        법인세 납부 후 유동성 최적화
+                    </h3>
+                    <p class="text-slate-600 leading-relaxed mb-6">
+                        3월 법인세 자금 집행 이후, 기업의 가용 현금이 일시적으로 감소하는 시점입니다. 2분기 원자재 확보 및 운영 자금 확보를 위한 <strong>정책자금 매칭</strong>과 <strong>단기 유동성 확보 전략</strong>이 필요합니다.
+                    </p>
+                    <ul class="space-y-2 text-sm text-slate-500 italic">
+                        <li>• 금리 인상기 대비 변동금리 부채 점검</li>
+                        <li>• 단기 예비비 목적의 저축성 플랜 검토</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-10 rounded-[2rem] border border-slate-200 card-hover relative overflow-hidden">
+                    <div class="absolute top-0 right-0 p-4 opacity-5">
+                        <i class="fas fa-file-invoice-dollar text-6xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-6 flex items-center text-orange-700">
+                        <span class="w-8 h-8 bg-orange-100 text-orange-600 rounded-full flex items-center justify-center mr-3 text-sm font-bold">2</span>
+                        이익잉여금 및 중간배당 전략
+                    </h3>
+                    <p class="text-slate-600 leading-relaxed mb-6">
+                        결산 완료 후 누적된 미처분이익잉여금은 법인의 비상장주식 가치를 높여 향후 승계나 증여 시 세부담을 가중시킵니다. 4월 중 <strong>정관 정비</strong>를 마치고 <strong>중간배당</strong>을 실행하여 법인 자금을 개인화하는 출구 전략이 시급합니다.
+                    </p>
+                    <ul class="space-y-2 text-sm text-slate-500 italic">
+                        <li>• 차등배당을 통한 자녀 자금 출처 마련</li>
+                        <li>• 임원 퇴직금 지급 규정 등 정관 필수 정비</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Global Economy Section -->
+        <section id="economy" class="mb-20 scroll-mt-24">
+            <div class="flex items-end justify-between mb-8 border-b border-slate-200 pb-4">
+                <div class="flex items-center">
+                    <span class="text-indigo-600 text-4xl font-serif italic mr-4">02.</span>
+                    <div>
+                        <h2 class="text-2xl font-bold text-slate-900">글로벌 경제: 4월의 나침반</h2>
+                        <p class="text-slate-500 text-sm">Global Market Insight</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-slate-900 text-white p-8 md:p-12 rounded-[2.5rem] shadow-2xl overflow-hidden relative">
+                <div class="grid md:grid-cols-3 gap-12 relative z-10">
+                    <div class="text-center md:text-left">
+                        <div class="text-indigo-400 text-sm font-bold tracking-widest uppercase mb-4 italic">Monetary Policy</div>
+                        <h4 class="text-3xl font-bold mb-4">FED 기조 유지</h4>
+                        <p class="text-slate-400 text-sm leading-relaxed">미국 연준은 금리 인하 시점을 신중하게 검토 중입니다. 인플레이션 둔화 지표에 따라 하반기 금리 변동성이 결정될 것으로 보입니다.</p>
+                    </div>
+                    <div class="text-center md:text-left">
+                        <div class="text-amber-400 text-sm font-bold tracking-widest uppercase mb-4 italic">Commodity Risk</div>
+                        <h4 class="text-3xl font-bold mb-4">원자재 변동성</h4>
+                        <p class="text-slate-400 text-sm leading-relaxed">지정학적 리스크 지속으로 에너지 및 공급망 병목 현상이 간헐적으로 발생하고 있습니다. 수입 단가 관리에 유의하십시오.</p>
+                    </div>
+                    <div class="text-center md:text-left">
+                        <div class="text-emerald-400 text-sm font-bold tracking-widest uppercase mb-4 italic">Industry Outlook</div>
+                        <h4 class="text-3xl font-bold mb-4">반도체 업턴</h4>
+                        <p class="text-slate-400 text-sm leading-relaxed">메모리 수요 증가와 AI 인프라 확대로 국내 IT 및 반도체 수출 지표가 뚜렷한 회복세를 보이며 경기를 견인 중입니다.</p>
+                    </div>
+                </div>
+                <div class="absolute -bottom-20 -right-20 w-64 h-64 bg-indigo-600/10 rounded-full blur-3xl"></div>
+            </div>
+        </section>
+
+        <!-- 3. Health & Life Section -->
+        <section id="health" class="mb-20 scroll-mt-24">
+            <div class="flex items-end justify-between mb-8 border-b border-slate-200 pb-4">
+                <div class="flex items-center">
+                    <span class="text-rose-600 text-4xl font-serif italic mr-4">03.</span>
+                    <div>
+                        <h2 class="text-2xl font-bold text-slate-900">CEO 라이프케어: 4월의 활력</h2>
+                        <p class="text-slate-500 text-sm">Health & Lifestyle Management</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="group bg-white p-8 rounded-3xl border border-slate-200 text-center card-hover">
+                    <div class="w-16 h-16 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:bg-blue-600 group-hover:text-white transition-colors">
+                        <i class="fas fa-eye text-2xl"></i>
+                    </div>
+                    <h4 class="font-bold text-lg mb-3">안구 건조증 케어</h4>
+                    <p class="text-sm text-slate-500">잦은 모니터 업무와 봄철 미세먼지로 눈의 피로도가 급증합니다. 루테인 섭취와 스마트폰 다크모드 설정을 권장합니다.</p>
+                </div>
+                <div class="group bg-white p-8 rounded-3xl border border-slate-200 text-center card-hover">
+                    <div class="w-16 h-16 bg-rose-50 text-rose-600 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:bg-rose-600 group-hover:text-white transition-colors">
+                        <i class="fas fa-lungs text-2xl"></i>
+                    </div>
+                    <h4 class="font-bold text-lg mb-3">미세먼지 디톡스</h4>
+                    <p class="text-sm text-slate-500">체내 중금속 배출을 돕는 해조류와 충분한 수분 섭취가 중요합니다. 사무실 내 공기 정화 식물 배치를 고려해보세요.</p>
+                </div>
+                <div class="group bg-white p-8 rounded-3xl border border-slate-200 text-center card-hover">
+                    <div class="w-16 h-16 bg-emerald-50 text-emerald-600 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:bg-emerald-600 group-hover:text-white transition-colors">
+                        <i class="fas fa-golf-ball-tee text-2xl"></i>
+                    </div>
+                    <h4 class="font-bold text-lg mb-3">봄철 라운딩 매너</h4>
+                    <p class="text-sm text-slate-500">본격적인 골프 시즌입니다. 갑작스러운 근육 사용은 부상의 원인이 되니, 라운딩 전 최소 15분 이상의 스트레칭은 필수입니다.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-white pt-20 pb-24 px-6 border-t border-slate-900">
+        <div class="max-w-4xl mx-auto text-center">
+            <!-- Slogan Area -->
+            <div class="mb-12">
+                <h2 class="serif-title text-3xl md:text-4xl font-bold mb-6 leading-tight">
+                    성공적인 경영의 길, <br>
+                    <span class="text-blue-400">삼성생명이 함께하겠습니다.</span>
+                </h2>
+                <div class="w-12 h-0.5 bg-blue-500/50 mx-auto mb-6"></div>
+                <p class="text-slate-300 text-base md:text-lg font-light leading-relaxed">
+                    복잡한 법인 세무부터 자산 관리까지,<br class="hidden md:block">
+                    대표님의 고민을 <span class="text-white font-medium">명쾌한 해답</span>으로 바꿔드립니다.
+                </p>
+            </div>
+            
+            <!-- Contact Info Area -->
+            <div class="bg-slate-900/50 rounded-3xl p-8 mb-10 border border-white/5 inline-block min-w-[300px]">
+                <p class="text-blue-400 text-sm font-bold tracking-widest uppercase mb-3">Samsung Life GFC Division</p>
+                <div class="text-white">
+                    <p class="text-xl md:text-2xl font-bold mb-2">삼성생명 GFC 사업부</p>
+                    <p class="text-lg md:text-xl text-slate-300 flex items-center justify-center gap-2">
+                        대표 컨설턴트 <span class="text-white">최세림</span>
+                        <span class="text-slate-600">|</span>
+                        <a href="tel:01012345678" class="hover:text-blue-400 transition-colors font-semibold tracking-tight">010-1234-5678</a>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="text-slate-600 text-[11px] tracking-widest font-medium">
+                © 2026 SAMSUNG LIFE INSURANCE GFC.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Navigation (Floating Bottom) -->
+    <nav class="fixed bottom-6 left-1/2 -translate-x-1/2 w-[85%] max-w-sm floating-nav rounded-2xl shadow-2xl py-3 px-8 flex justify-around items-center md:hidden border border-slate-200 z-50">
+        <a href="#tax" class="text-slate-400 hover:text-blue-600 flex flex-col items-center transition-colors">
+            <i class="fas fa-building text-lg"></i>
+            <span class="text-[10px] mt-1 font-bold">경영</span>
+        </a>
+        <a href="#economy" class="text-slate-400 hover:text-indigo-600 flex flex-col items-center transition-colors">
+            <i class="fas fa-chart-line text-lg"></i>
+            <span class="text-[10px] mt-1 font-bold">경제</span>
+        </a>
+        <a href="#health" class="text-slate-400 hover:text-rose-600 flex flex-col items-center transition-colors">
+            <i class="fas fa-heartbeat text-lg"></i>
+            <span class="text-[10px] mt-1 font-bold">건강</span>
+        </a>
+        <div class="w-px h-6 bg-slate-200 mx-2"></div>
+        <a href="tel:01012345678" class="text-blue-600 flex flex-col items-center transition-colors">
+            <i class="fas fa-phone-alt text-lg"></i>
+            <span class="text-[10px] mt-1 font-bold">연락</span>
+        </a>
+    </nav>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
